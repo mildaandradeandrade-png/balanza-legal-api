@@ -1,5 +1,10 @@
 {
+  "name": "balanza-legal-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
   "dependencies": {
-    "react-markdown": "^10.1.0"
+    ...
   }
 }
