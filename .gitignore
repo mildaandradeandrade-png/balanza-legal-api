@@ -1,20 +1,5 @@
-# Node / Front
 node_modules/
 balanza-web/
-
-# DB local
 data/
-*.mv.db
-*.trace.db
-
-# Keys / env
 .env
 *.key
-
-# Gradle
-.gradle/
-build/
-
-# IDE
-.idea/
-.vscode/
