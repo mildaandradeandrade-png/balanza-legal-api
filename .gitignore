@@ -1,5 +1,7 @@
 node_modules/
 balanza-web/
+.gradle/
+build/
 data/
 .env
 *.key
