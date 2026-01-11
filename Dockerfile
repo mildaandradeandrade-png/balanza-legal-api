@@ -8,6 +8,7 @@ COPY build.gradle settings.gradle ./
 COPY src src
 
 RUN chmod +x gradlew && ./gradlew bootJar --no-daemon
+RUN sed -i 's/\r$//' gradlew
 RUN chmod +x gradlew
 RUN ./gradlew build --no-daemon
 
