@@ -1,44 +1,4 @@
-plugins {
-    id 'java'
-    id 'org.springframework.boot' version '3.3.6'
-    id 'io.spring.dependency-management' version '1.1.6'
-}
-
-group = 'com.tuempresa'
-version = '0.0.1-SNAPSHOT'
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
-}
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    runtimeOnly 'com.h2database:h2'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    runtimeOnly 'com.h2database:h2'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    runtimeOnly 'com.h2database:h2'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
-    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'com.itextpdf:itext7-core:7.2.5'
-    implementation "org.apache.pdfbox:pdfbox:2.0.30"
-    implementation 'org.apache.poi:poi-ooxml:5.2.3'
-    implementation 'org.apache.pdfbox:pdfbox:2.0.31'
-    implementation 'org.apache.poi:poi-ooxml:5.2.5'
-
-    
-  
-
-    
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
 }
 
