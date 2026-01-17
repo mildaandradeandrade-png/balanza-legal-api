@@ -1,5 +1,5 @@
 # ===== BUILD =====
-FROM eclipse-temurin:21-jdk AS build
+FROM eclipse-temurin:17-jdk AS build
 WORKDIR /app
 
 COPY gradlew gradlew
@@ -13,7 +13,7 @@ RUN chmod +x gradlew
 RUN ./gradlew build --no-daemon
 
 # ===== RUN =====
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 COPY --from=build /app/build/libs/*.jar app.jar
